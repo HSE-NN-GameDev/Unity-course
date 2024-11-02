@@ -8,6 +8,8 @@
 
 * [Lecture3](./Animation/) - Примеры разных анимаций
 
+* [Lecture4](./SaveLoad/) - Пример схемы сохранения и загрузки используя Json файл
+
 ## Практическое оценивание
 
 * [Assesment 1](./Practical_Assessment/Assesment1.md)
