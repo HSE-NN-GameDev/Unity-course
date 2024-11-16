@@ -15,6 +15,7 @@
 ## Практическое оценивание
 
 * [Assesment 1](./Practical_Assessment/Assesment1.md)
+* [Assesment 2](./Practical_Assessment/Assesment2.md)
 
 ## Полезные сслыки
 * [Unity Docs](https://docs.unity3d.com) - Документация к Unity
