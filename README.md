@@ -12,6 +12,8 @@
 
 * [Lecture5](./NavMesh/) - Примеры с NavMesh
 
+* [Lecture6](./FPSExample/) - Один из вариантов реализации FPS игрока
+
 ## Практическое оценивание
 
 * [Assesment 1](./Practical_Assessment/Assesment1.md)
