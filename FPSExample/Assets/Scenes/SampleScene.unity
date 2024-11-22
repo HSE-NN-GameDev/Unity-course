@@ -123,58 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &93550941
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 93550942}
-  - component: {fileID: 93550943}
-  m_Layer: 0
-  m_Name: RayShooter
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &93550942
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 93550941}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 963194228}
-  m_Father: {fileID: 1990888381}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &93550943
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 93550941}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9834e125e3ed9874483d3ee28b87ce85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 963194227}
-  shootingType: 1
-  flash: {fileID: 819513671}
-  hole: {fileID: 1186425261877688500, guid: d1d475f933af5ff4e89c60e11d5c7991, type: 3}
-  recoilPower: {x: -5, y: 0.2, z: 3}
-  retSpeed: 2
-  snap: 4
 --- !u!1 &106782471
 GameObject:
   m_ObjectHideFlags: 0
@@ -536,6 +484,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 963194228}
   - {fileID: 1990888381}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -590,7 +539,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dad4d5603f0bdc942af8389c15a3bb39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1000
+  speed: 5
 --- !u!1 &191929864
 GameObject:
   m_ObjectHideFlags: 0
@@ -5935,6 +5884,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -6009,13 +5959,31 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.70204437, y: 0.02674215, z: -0.026400058, w: 0.7111411}
-  m_LocalPosition: {x: -1.9145775, y: 0.038234904, z: -0.6780871}
-  m_LocalScale: {x: 3.9334517, y: 3.9980118, z: 1.0043727}
+  m_LocalRotation: {x: -0, y: -0, z: 0.0000000018626449, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 93550942}
+  m_Father: {fileID: 148082192}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9834e125e3ed9874483d3ee28b87ce85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootingType: 1
+  flash: {fileID: 819513671}
+  hole: {fileID: 1186425261877688500, guid: d1d475f933af5ff4e89c60e11d5c7991, type: 3}
+  recoilPower: {x: -10, y: 10, z: 0.2}
+  retSpeed: 2
+  snap: 4
 --- !u!224 &987717050 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5829718844915583915, guid: e08f6785e29ac1b43be988255239bbbd, type: 3}
@@ -6369,7 +6337,6 @@ Transform:
   m_Children:
   - {fileID: 819513669}
   - {fileID: 2073123092}
-  - {fileID: 93550942}
   m_Father: {fileID: 148082192}
   m_LocalEulerAnglesHint: {x: 89.263, y: -4.307, z: 0}
 --- !u!136 &1990888382
