@@ -1,0 +1,2 @@
+D:\GameDevHse\Unity\PhoneControl\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+D:\GameDevHse\Unity\PhoneControl\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt
