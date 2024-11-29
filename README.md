@@ -14,6 +14,8 @@
 
 * [Lecture6](./FPSExample/) - Один из вариантов реализации FPS игрока
 
+* [Lecture7](./PhoneControl/) - Использование датчиков телефона и камеры устройства
+
 ## Практическое оценивание
 
 * [Assesment 1](./Practical_Assessment/Assesment1.md)

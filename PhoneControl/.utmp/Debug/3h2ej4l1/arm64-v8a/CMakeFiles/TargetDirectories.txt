@@ -1,0 +1,5 @@
+D:/GameDevHse/Unity/PhoneControl/.utmp/Debug/3h2ej4l1/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/GameDevHse/Unity/PhoneControl/.utmp/Debug/3h2ej4l1/arm64-v8a/CMakeFiles/rebuild_cache.dir
+D:/GameDevHse/Unity/PhoneControl/.utmp/Debug/3h2ej4l1/arm64-v8a/GameActivity/CMakeFiles/game.dir
+D:/GameDevHse/Unity/PhoneControl/.utmp/Debug/3h2ej4l1/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+D:/GameDevHse/Unity/PhoneControl/.utmp/Debug/3h2ej4l1/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
