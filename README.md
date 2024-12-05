@@ -16,6 +16,8 @@
 
 * [Lecture7](./PhoneControl/) - Использование датчиков телефона и камеры устройства
 
+* [Lecture8](./GlassAndWater//) - Пример модели разбивающегося стекла и шейдера для воды
+
 ## Практическое оценивание
 
 * [Assesment 1](./Practical_Assessment/Assesment1.md)
@@ -25,3 +27,5 @@
 * [Unity Docs](https://docs.unity3d.com) - Документация к Unity
 
 * [NavMesh](https://docs.unity3d.com/Packages/com.unity.ai.navigation@2.0/manual/index.html) - Документация по NavMesh
+
+* [Shader Graph](https://docs.unity3d.com/Packages/com.unity.shadergraph@6.9/manual/index.html) - Ноды для Shader Graph
