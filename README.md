@@ -16,7 +16,9 @@
 
 * [Lecture7](./PhoneControl/) - Использование датчиков телефона и камеры устройства
 
-* [Lecture8](./GlassAndWater//) - Пример модели разбивающегося стекла и шейдера для воды
+* [Lecture8](./GlassAndWater/) - Пример модели разбивающегося стекла и шейдера для воды
+
+* [Lecture9](./AsyncAndMP/) - Пример простого мультиплеера
 
 ## Практическое оценивание
 
@@ -29,3 +31,7 @@
 * [NavMesh](https://docs.unity3d.com/Packages/com.unity.ai.navigation@2.0/manual/index.html) - Документация по NavMesh
 
 * [Shader Graph](https://docs.unity3d.com/Packages/com.unity.shadergraph@6.9/manual/index.html) - Ноды для Shader Graph
+
+* [MP Examples](https://github.com/Unity-Technologies/com.unity.multiplayer.samples.bitesize) - Дополнительные примеры мультиплеера через NetCode
+
+* [NetCode](https://docs-multiplayer.unity3d.com/netcode/current/about/) - Документация по NetCode
